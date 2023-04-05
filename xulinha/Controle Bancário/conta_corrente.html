@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Bancário - Conta Corrente</title>
+    <link rel="stylesheet" href="../Controle Bancário/estilos_cc.css">
+</head>
+
+<body>
+    <form name="conta_corrente" method="post" action="../Controle Bancário/conta_corrente_exibir.php">
+        <table>
+            <caption>Cadastro de Conta Corrente</caption>
+            <tr>
+                <td><label for="nome">Nome: </label></td>
+                <td>
+                    <input type="text" name="nome" size="40" maxlength="50" required placeholder="Informe o nome completo do Cliente" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="agencia">Agência: </label></td>
+                <td>
+                    <input type="text" name="agencia" size="22" maxlength="20" required maxlength="20">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="banco">Banco: </label></td>
+                <td>
+                    <select name="banco">
+                        <option value="#"></option>
+                        <option value="caixa">Caixa Econômica Federal</option>
+                        <option value="brasil">Banco do Brasil</option>
+                        <option value="mercantil">Banco Mercantil</option>
+                        <option value="santander">Banco Santander</option>
+                        <option value="bradesco">Banco Bradesco</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="conta_corrente">Conta Corrente: </label></td>
+                <td><input type="text" name="conta_corrente" size="25" maxlength="25" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="tipo_conta">Tipo da Conta: &rAarr; </label></td>
+                <td>
+                    <input type="radio" name="conta_comum">Conta Comum
+                    <input type="radio" name="conta_especial">Conta Especial
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="data_abertura">Data da Abertura: </label></td>
+                <td><input type="date" name="data_abertura" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="saldo_inicial">Saldo Inicial: </label></td>
+                <td><input type="number" name="saldo_inicial" step="0.01" value="0"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input class="botao" type="submit" name="cadastrar" value="Cadastrar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
