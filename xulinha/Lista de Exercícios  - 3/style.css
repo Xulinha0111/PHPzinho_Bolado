@@ -1,0 +1,77 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #236925bd;
+}
+
+a:hover{
+  color: #45a049;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  background-color: #236925bd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+.message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf4f31;
+  border: none;
+}
+
+.required {
+  color: green;
+  font-weight: bold;
+}
+
+.required::after {
+  content: " *";
+}
