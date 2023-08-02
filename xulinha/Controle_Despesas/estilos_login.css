@@ -1,0 +1,56 @@
+.container {
+    width:300px;
+    margin:0 auto;
+    padding: 20px;
+    border:8px solid rgb(25, 25, 178);
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(25, 25, 178);
+    border-bottom: 1px dashed blue;
+}
+
+.form_grupo {
+    margin-bottom: 10px;
+}
+
+label {
+    display:block;
+    font-weight: 600;
+    color: rgb(25, 25, 178);
+}
+
+input[type="text"], input[type="password"] {
+    width:280px;
+    padding: 5px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    padding: 10px;
+    background-color:rgb(25, 25, 178);
+    color:aliceblue;
+    border:none;
+    border-radius: 8px;
+
+
+input[type="submit"]:hover{
+    background-color: brown;
+}
+
+a{
+    text-decoration: none;
+    font-size:1.2em;
+}
+
+a:hover {
+    background-color:rgb(25, 25, 178);
+    color:aliceblue;
+    padding: 8px;
+    border-radius: 8px;
+}

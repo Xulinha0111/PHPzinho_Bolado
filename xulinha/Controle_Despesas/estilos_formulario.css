@@ -1,0 +1,17 @@
+body {    
+    font-family: Comic Sans MS;
+    font-size:16px;
+}
+label, input {
+    color:cornflowerblue;
+    font-weight: 600;
+    font-size:1.1em;
+}
+input[type="submit"] {
+    width:100px;
+    height: 38px;
+    border:solid 1px blue;
+    border-radius: 5px;
+    margin-top:20px;
+    cursor: pointer;
+}

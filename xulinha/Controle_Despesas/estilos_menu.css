@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.menu {
+    background-color: #333;
+}
+.menu ul {
+    margin:0; /* Zera as margens da classe menu, e do elemento (tag) ul */
+    padding:0;
+    list-style: none; /* Oculta os marcadores */
+}
+.menu ul li{
+    display:inline-block; /* Deixa os links na horizontal */
+}
+.menu ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none; /* Retira o sublinhado do link */
+    padding:10px 20px; /* Insere espaçamento interno na classe menu */
+}
+.menu ul li a:hover {
+    background-color:#157e27; /* Hover é quando passa o mouse  */
+}
+h3 {
+    text-align: center;
+    color:cornflowerblue;
+}
+body {
+    width:1200px;
+    margin:auto;
+}
+
+#cadastro {
+    margin:2%;
+}
