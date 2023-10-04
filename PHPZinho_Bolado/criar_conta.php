@@ -11,20 +11,18 @@
     <div class="container">
         <h3>Cadastro de Login</h3>
         <form name="login" method="post" action="">
-            
-        <div class="form_group">
-            <label for="usuario">Usuário:</label>
-            <input type="text" name="usuario" maxlength="40" required>
-        </div>
-
-        <div class="form_group">
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" maxlength="20" required>
-        </div>
-
-            <p></p>
-            
+            <div class="form_group">
+                <label for="usuario">Usuário:</label>
+                <input type="text" name="usuario" maxlength="40" required>
+            </div>
+            <div class="form_group">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" maxlength="20" required>
+            </div>
             <input type="submit" value="Cadastrar" name="cadastrar">
+            <br><br>
+            <center><a href='login.html'>Voltar para a Tela de Login</a></center>
+            <br>
         </form>
     </div>
     <?php
