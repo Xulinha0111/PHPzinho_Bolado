@@ -43,12 +43,12 @@ CREATE TABLE `contas`
   `Codigo_Cliente` INT(4) NOT NULL,
   `data` DATE NOT NULL,
   `valor` DECIMAL(8,2) NOT NULL,
-  `historico` VARCHAR(200) NOT NULL,
+  `historico` VARCHAR(200) NOT NULL
   FOREIGN KEY (Codigo_Cliente) REFERENCES clientes(codigo)
 )
 
 CREATE TABLE `tblogin` (
   `codigo` int(4) PRIMARY KEY AUTO_INCREMENT NOT NULL,
   `usuario` varchar(50) NOT NULL,
-  `senha` varchar(30) NOT NULL,
+  `senha` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
